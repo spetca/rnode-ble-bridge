@@ -128,6 +128,7 @@ pip install -r requirements.txt
 💡 Tip: Connected devices are now available as virtual serial ports
    You can use them in MeshChat by selecting the /tmp/cu.RNode-* ports
 ```
+
 4. restart with `./connect_rnode.sh auto` and note output
 ```
 ✅ Connected successfully!
@@ -135,7 +136,9 @@ pip install -r requirements.txt
    Symlink: /tmp/cu.RNode-83505A21-5088-FDEC-FCB7-E282E48AC0AF
 ```
 5. put the above in your ~/.reticulum/config file
+   
    <img width="451" height="218" alt="image" src="https://github.com/user-attachments/assets/8a3cb0ea-950f-444e-ba4a-d9237af5a049" />
-6. open meshcat
+   
+7. open meshcat
 
 
