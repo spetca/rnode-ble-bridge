@@ -82,8 +82,23 @@ pip install -r requirements.txt
 ```
 6. put the symlink port into your ~/.reticulum/config file (the serial port may change from boot-to-boot)
    
-   <img width="451" height="218" alt="image" src="https://github.com/user-attachments/assets/8a3cb0ea-950f-444e-ba4a-d9237af5a049" />
-   
+```
+ [[rnode000]]
+    type = RNodeInterface
+    interface_enabled = true
+    #port = /dev/cu.usbserial-0001
+    port = /tmp/cu.RNode-83505A21-5088-FDEC-FCB7-E282E48AC0AF
+    frequency = 915000000
+    bandwidth = 250000
+    txpower = 22
+    spreadingfactor = 5
+    codingrate = 5
+    airtime_limit_long = 10
+    name = spet-midcity
+    selected_interface_mode = 1
+    configured_bitrate = None
+```
+
 7. open meshcat
 
 
