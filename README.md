@@ -2,6 +2,14 @@
 
 This utility creates virtual serial ports for BLE RNode devices, allowing any application (like MeshChat) to connect to them as regular serial ports. It eliminates the need for complex GUI integration by providing a simple command-line interface.
 
+
+```
+┌─────────────┐    ┌──────────────┐    ┌─────────────┐    ┌─────────────┐
+│   MeshChat  │◄──►│ Virtual PTY  │◄──►│ BLE Bridge  │◄──►│ RNode (BLE) │
+│             │    │ /tmp/cu.RNode│    │             │    │ Heltec v3   │
+└─────────────┘    └──────────────┘    └─────────────┘    └─────────────┘
+```
+
 The gist: 
 
 1. Finds RNode devices advertising Nordic UART Service
