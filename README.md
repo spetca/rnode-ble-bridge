@@ -80,7 +80,7 @@ pip install -r requirements.txt
    Serial Port: /dev/ttys054
    Symlink: /tmp/cu.RNode-83505A21-5088-FDEC-FCB7-E282E48AC0AF
 ```
-5. put the above in your ~/.reticulum/config file
+5. put the symlink port into your ~/.reticulum/config file (the serial port may change from boot-to-boot)
    
    <img width="451" height="218" alt="image" src="https://github.com/user-attachments/assets/8a3cb0ea-950f-444e-ba4a-d9237af5a049" />
    
