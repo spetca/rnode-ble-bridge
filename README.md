@@ -1,6 +1,6 @@
-# RNode BLE Bridge
+# Reticulum RNode BLE Bridge
 
-This utility creates virtual serial ports for BLE RNode devices, allowing any application (like MeshChat) to connect to them as regular serial ports. It eliminates the need for complex GUI integration by providing a simple command-line interface.
+This utility creates virtual serial ports for Reticulum BLE RNode devices, allowing any application (like MeshChat) to connect to devices such as the Heltec V3 as regular serial ports. It eliminates the need for complex GUI integration by providing a simple command-line interface.
 
 
 ```
