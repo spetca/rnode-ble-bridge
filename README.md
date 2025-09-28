@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### Example Usage with MeshChat
 
-1. Clone this repo
+1. Clone this repo, create a python virtual environment, and install requirements
 2. put device (like heltec v3) into pairing mode by holding user button for ~5 seconds and releasing
 3. run `./connect_rnode.sh auto` from the location of this repo on your machin, when prompted put in the pairing key displayed on your rnode 
 4. during first pairing you may get errors like below
@@ -74,13 +74,13 @@ pip install -r requirements.txt
    You can use them in MeshChat by selecting the /tmp/cu.RNode-* ports
 ```
 
-4. restart with `./connect_rnode.sh auto` and note output
+5. restart with `./connect_rnode.sh auto` and note output
 ```
 ✅ Connected successfully!
    Serial Port: /dev/ttys054
    Symlink: /tmp/cu.RNode-83505A21-5088-FDEC-FCB7-E282E48AC0AF
 ```
-5. put the symlink port into your ~/.reticulum/config file (the serial port may change from boot-to-boot)
+6. put the symlink port into your ~/.reticulum/config file (the serial port may change from boot-to-boot)
    
    <img width="451" height="218" alt="image" src="https://github.com/user-attachments/assets/8a3cb0ea-950f-444e-ba4a-d9237af5a049" />
    
